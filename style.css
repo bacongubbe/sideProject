@@ -89,6 +89,7 @@ p {
   width: 20px;
   background-color: #000;
   border: none;
+  cursor: pointer;
 }
 
 .color-choise2 {
@@ -96,6 +97,7 @@ p {
   width: 20px;
   background-color:blue;
   border: none;
+  cursor: pointer;
 }
 
 .color-choise3 {
@@ -103,6 +105,7 @@ p {
   width: 20px;
   background-color:red;
   border: none;
+  cursor: pointer;
 }
 
 .color-choise4 {
@@ -110,6 +113,7 @@ p {
   width: 20px;
   background-color:burlywood;
   border: none;
+  cursor: pointer;
 }
 
 .color-choise5 {
@@ -117,6 +121,7 @@ p {
   width: 20px;
   background-color:green;
   border: none;
+  cursor: pointer;
 }
 
 .color-choise6 {
@@ -124,6 +129,7 @@ p {
   width: 20px;
   background-color:brown;
   border: none;
+  cursor: pointer;
 }
 
 /* BUTTON */
