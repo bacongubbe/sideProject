@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 825px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info {
+  margin-bottom: 25px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  padding-bottom: 5px;
+}
+
+.details-list li:last-child {
+  padding: 0;
+}
+
+.colors {
+  word-spacing: 10px;
+}
+
+.color-choise1 {
+  height: 20px;
+  width: 20px;
+  background-color: #000;
+  border: none;
+}
+
+.color-choise2 {
+  height: 20px;
+  width: 20px;
+  background-color:blue;
+  border: none;
+}
+
+.color-choise3 {
+  height: 20px;
+  width: 20px;
+  background-color:red;
+  border: none;
+}
+
+.color-choise4 {
+  height: 20px;
+  width: 20px;
+  background-color:burlywood;
+  border: none;
+}
+
+.color-choise5 {
+  height: 20px;
+  width: 20px;
+  background-color:green;
+  border: none;
+}
+
+.color-choise6 {
+  height: 20px;
+  width: 20px;
+  background-color:brown;
+  border: none;
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: solid black;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-top: 4px solid #000;
+  border-bottom: none;
+}
+
+.product::before {
+  content: "SALE";
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  position: absolute;
+  top: -25px;
+  left: -50px;
+}
